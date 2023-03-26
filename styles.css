@@ -213,3 +213,56 @@ button.more-menu:focus {
   opacity: .5;
   font-weight: 600;
 }
+
+section {
+  margin: 10px 0;
+}
+
+.result {
+  width: 45%;
+}
+
+.result h6,
+.result a,
+.result ul {
+  margin: 5px 0;
+}
+
+.result span {
+  float: left;
+}
+
+.result p {
+  margin: 0;
+}
+
+.link-list {
+  display: flex;
+  gap: 4px;
+}
+
+.also-ask {
+  width: 50%;
+  border: 1px solid rgba(70, 70, 70, .3);
+  border-radius: 10px;
+}
+
+.also-ask h2 {
+  padding: 0 20px;
+}
+
+.also-ask div {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(70, 70, 70, .3);
+}
+
+.also-ask div i {
+  opacity: .5;
+}
+
+.also-ask div i:hover {
+  cursor: pointer;
+}
