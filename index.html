@@ -9,58 +9,74 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <img src="" alt="" class="logo">
-        <form action="post" class="search">
-          <input 
-            type="search" 
-            class="search"
-          >
-        </form>
-        <button class="apps-toggle">
-          <span><img src="" alt=""></span>
-        </button>
-        <button class="account">
-          <span><img src="" alt=""></span>
-        </button>
+    <header>
+      <div class="container header">
+        <div class="search-bar">
+          <img src="http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" alt="" class="logo">
+          <div class="search-wrap">
+            <input 
+              type="search" 
+              class="search"
+            >
+            <i class="fa-solid fa-xmark clear"></i>
+            <i class="fa-solid fa-microphone voice"></i>
+            <i class="fa-solid fa-magnifying-glass go"></i>
+          </div>
+        </div>
+        <div class="menu">          
+          <button class="apps-toggle">
+            <div class="close">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </button>
+          <button class="account">
+            <i class="fa-solid fa-user user"></i>
+          </button>
+        </div>
       </div>
     </header>
-    <nav class="navbar">
+    <nav class="navbar pr">
       <button class="nav-item">
-        <i></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
         <h5>All</h5>
       </button>
       <button class="nav-item">
-        <i></i>
-        <h5>Books</h5>
-      </button>
-      <button class="nav-item">
-        <i></i>
-        <h5>Images</h5>
-      </button>
-      <button class="nav-item">
-        <i></i>
-        <h5>Videos</h5>
-      </button>
-      <button class="nav-item">
-        <i></i>
+        <i class="fa-regular fa-newspaper"></i>
         <h5>News</h5>
       </button>
       <button class="nav-item">
-        <i></i>
+        <i class="fa-regular fa-image"></i>
+        <h5>Images</h5>
+      </button>
+      <button class="nav-item">
+        <i class="fa-solid fa-play"></i>
+        <h5>Videos</h5>
+      </button>
+      <button class="nav-item">
+        <i class="fa-solid fa-tag"></i>
+        <h5>Shopping</h5>
+      </button>
+      <button class="nav-item more-menu">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
         <h5>More</h5>
       </button>
     </nav>
     <hr>
-    <div class="ticker">
+    <div class="ticker pr">
       <span>About 53,470,000,000 results (.53 seconds)</span>
     </div>
-    <section class="result">
-      <h6></h6>
-      <a href="#"></a>
+    <section class="result pr">
+      <h6>
+        https://support.google.com
+      </h6>
+      <a href="#">Search results page - Google Help</a>
       <span></span>
-      <p></p>
+      <p>The search results page contains the results of the search query on the left 
+        (or top on smaller screens). Results are sorted by relevance by default, and can 
+        be sorted by newest or oldest filing date using the "ordered by relevance" menu 
+        above the search results list.</p>
       <ul class="link-list">
         <li>
           <a href="#"></a>
@@ -73,11 +89,17 @@
         </li>
       </ul>
     </section>
-    <section class="result">
-      <h6></h6>
-      <a href="#"></a>
+    <section class="result pr">
+      <h6>        
+        https://developers.google.com
+      </h6>
+      <a href="#">Visual Elements Gallery of Google Search</a>
       <span></span>
-      <p></p>
+      <p>The Google Search results page contains a set of different types of search result visual elements, and each search result has its own set of possible child ...
+        Title link: The title of a search result on Google ...
+        Attribution: The source information for the web ...
+        Snippet: The description or summary part of the ...
+        Sitelinks group: Two or more links from the sa...</p>
       <ul class="link-list">
         <li>
           <a href="#"></a>
@@ -90,7 +112,7 @@
         </li>
       </ul>
     </section>
-    <div class="also-ask">
+    <div class="also-ask pr">
       <h2>People also ask</h2>
       <div>        
         <h3></h3>
@@ -105,7 +127,7 @@
         <i></i>
       </div>
     </div>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -122,7 +144,7 @@
         </li>
       </ul>
     </section>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -139,7 +161,7 @@
         </li>
       </ul>
     </section>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -156,7 +178,7 @@
         </li>
       </ul>
     </section>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -173,7 +195,7 @@
         </li>
       </ul>
     </section>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -190,7 +212,7 @@
         </li>
       </ul>
     </section>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -207,7 +229,7 @@
         </li>
       </ul>
     </section>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -224,7 +246,7 @@
         </li>
       </ul>
     </section>
-    <section class="result">
+    <section class="result pr">
       <h6></h6>
       <a href="#"></a>
       <span></span>
@@ -241,5 +263,6 @@
         </li>
       </ul>
     </section>
+    <script src="https://kit.fontawesome.com/952ee177d9.js" crossorigin="anonymous"></script>
   </body>
 </html>
