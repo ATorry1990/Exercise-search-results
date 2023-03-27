@@ -1,7 +1,7 @@
 html { scroll-behavior: smooth;}
 
 body {
-  margin: 0;
+  margin: 10px 0 0 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -116,7 +116,7 @@ input.search:focus {
 .go {
   position: absolute;
   top: 5px;
-  right: 20px;
+  right: 10px;
   padding: 10px;
   background: dodgerblue;
   -webkit-background-clip: text;
@@ -180,6 +180,13 @@ input.search:focus {
   margin-left: 275px;
 }
 
+.nav-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+
 .navbar {
   display: flex;
 }
@@ -188,6 +195,7 @@ input.search:focus {
   width: auto;
   background-color: transparent;
   border: 1px hidden;
+  border-bottom: 2px solid transparent;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -202,9 +210,19 @@ input.search:focus {
 
 .nav-item:focus {
   border-bottom: 2px solid #2196f3;
+  position: relative;
+  top: 2px;
 }
 
 button.more-menu:focus {
+  border-bottom: none;
+}
+
+.nav-wrapper div {
+  display: flex;
+}
+
+.nav-wrapper div .nav-item:focus {
   border-bottom: none;
 }
 
@@ -215,7 +233,7 @@ button.more-menu:focus {
 }
 
 section {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .result {
@@ -228,12 +246,28 @@ section {
   margin: 5px 0;
 }
 
+.result h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.result a {
+  font-size: 26px;
+}
+
 .result span {
   float: left;
+  margin-right: 5px;
 }
 
 .result p {
   margin: 0;
+  font-size: 18px;
+  color: dimgrey;
+}
+
+.result ul a {
+  font-size: 18px;
 }
 
 .link-list {
@@ -265,4 +299,23 @@ section {
 
 .also-ask div i:hover {
   cursor: pointer;
+}
+
+footer {
+  padding: 50px;
+  margin-left: -500px;
+  z-index: 10;
+}
+
+#nav {
+  border-collapse: collapse;
+  margin-top: 17px;
+  text-align: center;
+}
+
+.csb {
+  background: url(./nav_logo118.png) no-repeat;
+  overflow: hidden;
+  display: block;
+  height: 40px;
 }
